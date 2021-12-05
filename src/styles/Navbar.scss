@@ -1,0 +1,22 @@
+.navbar {
+    background-color: #060b26;
+    height: 50px;
+}
+.menuBars {
+    margin-left: 2rem;
+    font-size: 2rem;
+    background: none;
+}
+.navMenu {
+    background-color:#060b26 ;
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    transition: 850ms;
+}
+.navMenu.active {
+    left: 0;
+    transition: 350ms;
+}
